@@ -16,6 +16,7 @@ public class My_Try {
 	@Test(enabled = false)
 	public void getIntvalue() throws EncryptedDocumentException, IOException
 	{ 
+		System.out.println("begining of test ");
 		// getting ORGANISATION value from excel sheet & entering to web page
 				 FileInputStream fis_xl=new FileInputStream("./src/test/resources/Book1.xlsx");
 				 Workbook wb = WorkbookFactory.create(fis_xl);
