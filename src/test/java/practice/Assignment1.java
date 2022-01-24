@@ -23,6 +23,8 @@ public class Assignment1
 {
  public static void main(String args[]) throws IOException, InterruptedException
  {
+	 System.out.println("start of programme ");
+	 
 	 WebDriver driver = null; 
 	 FileInputStream fis = new FileInputStream("./src/test/resources/data.properties");
 	 Properties p = new Properties();
